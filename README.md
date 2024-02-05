@@ -88,7 +88,7 @@ Library References
     - [Anaconda - Miniconda](https://repo.anaconda.com/miniconda/)
 
 14. **WRFv4.5, WPSV4.5, OBSGRID**
-    - [GitHub - wrf-model](https://github.com/wrf-model/OBSGRID)
+    - [GitHub - WRF-model](https://github.com/wrf-model/)
 
 15. **WPS Domain Setup and WPF Portal Setup Tools**
     - [NOAA - ESRL](https://esrl.noaa.gov/)
