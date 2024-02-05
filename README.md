@@ -1,7 +1,7 @@
 Automatic Installation Script for WRF V4.5 and CMAQ V5.4
 ========================================================
 
-This Bash script streamlines the installation process for WRF (Weather Research and Forecasting Model) version 4.5 and CMAQ (Community Multi-scale Air Quality Model) version 5.4. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. This script is a fork of the main Bash scripts developed by W. Hatheway for installing the WRF model.
+This Bash script streamlines the installation process for WRF (Weather Research and Forecasting Model) version 4.5 and CMAQ (Community Multi-scale Air Quality Model) version 5.4. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. This script is a fork of the main Bash scripts developed by [W. Hatheway](https://github.com/HathewayWill/WRF-MOSIT.git) for installing the WRF model.
 
 Features
 --------
