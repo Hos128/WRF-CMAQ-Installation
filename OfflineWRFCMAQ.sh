@@ -393,7 +393,7 @@ if [ "$Ubuntu_64bit_GNU" = "1" ] && [ "$WRF_PICK" = "1" ]; then
   echo "##########################################"
   echo " Wait for the libraries to be downloaded "
 
-  wget --header='Host: drive.usercontent.google.com' --header='User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36' --header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' --header='Accept-Language: en-US,en;q=0.9,fa;q=0.8' --header='Cookie: __Secure-ENID=14.SE=jaz9HHZNVyZCoChgx7hayEV8h9OwAfyBuZ9pvGVe4Va5ZLolE6UeypLBe_p3yAYt5IgiEjqjKZAYxgohcAccBnXqtu47v0QTrUBWYLa0gtIWtW5yHQKIS7z8zG_q3c_a59XyffUdW3n9KK62A3mBWe-8_4QPIYrK7ibfEDl5t_y-iayfHYhR1a_SFkre69cH-Qz590EfXPv6MupQUk-9qm-1zd2wbPhJ8uIg2N7psOPxzKoCKbTDIY-xwmJ9Lu1gyIS7ZOr1y_WLztaoXS5WfFHHJhne9MPXCu5W2hA05ZaEyt8T5cg-oimhxVmWuR3L8lffzzc5KaTQbSHgdGKx; AEC=Ae3NU9OU4r6-zGls5YhBEaSKlZEl862LXbkQZ22Si-s5YN-ygvewbcAemA; SEARCH_SAMESITE=CgQIrpoB; SID=g.a000gAgY6JyCFfxSk5nMyEuJpbDW5n9HbINwarvoOasEWn-N4MMa1iUCypM9XqEeSNYH9845fQACgYKAeASAQASFQHGX2MiHWhPSMbse2W5Mdw1vYgTdBoVAUF8yKrTlPW6rnWASC6kcUef6aWe0076; __Secure-1PSID=g.a000gAgY6JyCFfxSk5nMyEuJpbDW5n9HbINwarvoOasEWn-N4MMaudCBsNvTO4qtzqXMMo2HUQACgYKAV4SAQASFQHGX2MicxrDFOluPTE6LnyrZH-DiBoVAUF8yKomHLuhbQTSfGGBKN4gCib30076; __Secure-3PSID=g.a000gAgY6JyCFfxSk5nMyEuJpbDW5n9HbINwarvoOasEWn-N4MMaSCC_yjlQcj7TYgr5koyJ1gACgYKAYQSAQASFQHGX2Miyxokt375V_wrYH066Tb6dxoVAUF8yKp58W_T6nVb1VM9t5Yz02l50076; HSID=A_Q4OuT5OPNZ-AmqI; SSID=AAC36xdeB5-s9Qyzu; APISID=tMVN2bq5zGM9FM0C/AMpwwhsSHGbfcWLlq; SAPISID=K0fXXnYgWjq21F8R/A8x4WAoW5Q8Phq_Oc; __Secure-1PAPISID=K0fXXnYgWjq21F8R/A8x4WAoW5Q8Phq_Oc; __Secure-3PAPISID=K0fXXnYgWjq21F8R/A8x4WAoW5Q8Phq_Oc; 1P_JAR=2024-02-05-06; __Secure-1PSIDTS=sidts-CjIBPVxjSkRXvG4n56RYstZ9F7oX9mvbsjB4Yhkg6uRkkj3qbUTradtiskZxSSeSfgUmVxAA; __Secure-3PSIDTS=sidts-CjIBPVxjSkRXvG4n56RYstZ9F7oX9mvbsjB4Yhkg6uRkkj3qbUTradtiskZxSSeSfgUmVxAA; NID=511=VbYWSOavjS6_EMwZyQ6NMuUR6Gb3WN6KbjbKTFas3aTd8-E089YrCUdQolTtXvlaIwBtb9yVndYRiRRV0l4QKBSXUFd-f3I7qliCXv4yNw8atJwIu_s-SLqzDUuT_69PGFKc_ZKg043WrUewSKdA9U35gHB93BNZWEScnjUfLgbX__tKztYAmWCFyTk0uS3W2BCuX0MLTCokqQibFDiEekemNySwc9irxuEl5J6wsyeuraCRgFUT0Yempfw8s8WIs62vbSQdRnbASgI5zFmoIkpL63sbkH4fLKhGTxoiYvMnL6-l6MAPUC8k8KsvCT3Pt27yfaRiIw6zYtQu0FqFzQiADJEXCTWqv97KYJanw4QDgOVFbrKf; SIDCC=ABTWhQHKiDPtuTM_EyQRrV47VhO-NEu7-TUKxmP9OAZwhwiMokJnQA1Cw0r0qui3Ruomlczxh1vz; __Secure-1PSIDCC=ABTWhQEjegfLjwdnZqzl8jR4n8c6TaUCzVxXYjQy3hBYeKp24Qb9sku1MYQhPMjIMJJ5tAUrymys; __Secure-3PSIDCC=ABTWhQH7xqpa-0aApLsWFsQ9dp_uBQQYhQBReBRV6l4pux7G7OdUVQsIBXsZZCDjml9J33DtQnw' --header='Connection: keep-alive' 'https://drive.usercontent.google.com/download?id=1NwUZuWz1Z5okyAE8C8ZjqCSdOcueIWVo&export=download&authuser=4&confirm=t&uuid=2f6175cc-0558-4d9a-92d5-34898939a6aa&at=APZUnTX1VLQZbddVfTFc0OlGlM7p:1707116569736' -c -O 'Downloads.zip'
+  wget --header="Host: drive.usercontent.google.com" --header="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" --header="Accept-Language: en-US,en;q=0.9,fa;q=0.8" --header="Connection: keep-alive" "https://drive.usercontent.google.com/download?id=1NkmRAeG7w_LLhh_HDW_X39jZwGYw8mml&export=download&authuser=2&confirm=t&uuid=a4f92a10-cbd5-4064-bb83-d79567b60537&at=APZUnTWngzWjzHFwWurVdIQsFaAL:1711680004113" -c -O 'Downloads.zip'
 
   echo "##########################################"
   echo "##########################################"
@@ -1436,16 +1436,63 @@ if [ "$Ubuntu_64bit_GNU" = "1" ] && [ "$WRF_PICK" = "1" ]; then
   echo " "
 
 
+  ############################ SMOKEV5 ###############################
+  
+  cd $MAIN_FOLDER/Downloads/
+  mkdir $WRF_FOLDER/SMOKEV5
+  tar -xvzf smoke_v5.Linux2_x86_64ifort.tar.gz -C $WRF_FOLDER/SMOKEV5
+  
+  export BIN=Linux2_x86_64gfort
+  export SMK_HOME=$WRF_FOLDER/SMOKEV5
+  
+  tar -xvzf SMOKEv5_Jun2023.tar.gz -C $SMK_HOME/subsys/
+  
+  cd $SMK_HOME/subsys/
+  cp -r SMOKE-SMOKEv5_Jun2023/assigns smoke
+  cp -r SMOKE-SMOKEv5_Jun2023/scripts smoke
+  rm -r SMOKE-SMOKEv5_Jun2023
+  
+  cd $MAIN_FOLDER/Downloads/
+  tar -xvzf smoke_v48.nctox.data.tar.gz -C $SMK_HOME/
+  
+  cd $SMK_HOME/subsys/smoke/
+  mkdir $BIN
+  
+  cd src
+  sed -i '35s|IOBASE  = ${SMK_HOME}/subsys/ioapi|IOBASE = ${DIR}/ioapi-3.2|g' Makeinclude
+  sed -i '40s|INSTDIR = /somewhere/apps/${BIN}|INSTDIR = ${SMK_HOME}/subsys/smoke/${BIN}|g' Makeinclude
+  sed -i '48s| IFLAGS|# IFLAGS|g' Makeinclude
+  sed -i '49s|# IFLAGS| IFLAGS|g' Makeinclude
+  sed -i '53s| EFLAG|# EFLAG|g' Makeinclude
+  sed -i '54s|# EFLAG| EFLAG|g' Makeinclude
+  sed -i '59s|MFLAGS  = -traceback|MFLAGS  = -fallow-argument-mismatch -m64|g' Makeinclude
+  sed -i '72s|IOLIB = -L$(IOBIN) -lioapi -lnetcdff -lnetcdf|IOLIB = -L$(IOBIN) -lioapi -L${DIR}/NETCDF/lib -lnetcdff -L${DIR}/NETCDF/lib -lnetcdf|g' Makeinclude
+  
+  make |& tee make.log
+  
+  cd ../
+  cd $BIN
+  m=$(ls -rlt aggwndw | wc -l)
+  if (( ( $m == 1) ))
+    then
+      echo "All expected files created."
+      read -r -t 5 -p "Finished installing SMOKEV5. I am going to wait for 5 seconds only ..."
+   else
+     echo "Missing one or more expected files. Exiting the script."
+     read -r -p "Please contact script authors for assistance, press 'Enter' to exit script."
+     exit
+  fi
+
 
   ############################ CMAQV5.4 ###############################
   #!/bin/csh
   
   cd $MAIN_FOLDER/Downloads/
 
-  unzip master.zip
+  unzip master.zip -d $WRF_FOLDER/
   
-  cd CMAQ-main
-  sed -i "19s|set CMAQ_HOME = /home/username/path|set CMAQ_HOME = ${WRF_FOLDER}/CMAQV5.4|g" $MAIN_FOLDER/Downloads/CMAQ-main/bldit_project.csh
+  cd $WRF_FOLDER/CMAQ-main
+  sed -i "19s|set CMAQ_HOME = /home/username/path|set CMAQ_HOME = ${WRF_FOLDER}/CMAQV5.4|g" $WRF_FOLDER/CMAQ-main/bldit_project.csh
   
   export CMAQ_HOME=$WRF_FOLDER/CMAQV5.4
   
@@ -1491,13 +1538,50 @@ if [ "$Ubuntu_64bit_GNU" = "1" ] && [ "$WRF_PICK" = "1" ]; then
   if (( ( $m >= 1) ))
     then
       echo "All expected files created."
-      read -r -t 5 -p "Finished installing CMAQV5.4. I am going to wait for 5 seconds only ..."
+      read -r -t 5 -p "Finished installing CCTM. I am going to wait for 5 seconds only ..."
    else
      echo "Missing one or more expected files. Exiting the script."
      read -r -p "Please contact script authors for assistance, press 'Enter' to exit script."
      exit
   fi
-   
+  
+  
+  cd $WRF_FOLDER/CMAQV5.4/PREP/mcip/src
+  
+  sed -i "39s|#FC|FC|g" Makefile
+  sed -i "40s|#NETCDF = /usr/local/apps/netcdf-4.6.3/gcc-6.1.0|NETCDF = ${DIR}/NETCDF|g" Makefile
+  sed -i "41s|#IOAPI_ROOT = /usr/local/apps/ioapi-3.2_20181011/gcc-6.1.0|IOAPI_ROOT = ${DIR}/ioapi-3.2/|g" Makefile
+  sed -i "42s|#FFLAGS|FFLAGS|g" Makefile
+  sed -i "42s|Linux2_x86_64|Linux2_x86_64gfort_gcc|g" Makefile
+  sed -i "46s|#LIBS|LIBS|g" Makefile
+  sed -i "46s|Linux2_x86_64|Linux2_x86_64gfort_gcc|g" Makefile
+  sed -i "47s|#| |g" Makefile  
+  sed -i "50s|FC|#FC|g" Makefile
+  sed -i "51s|NETCDF|#NETCDF|g" Makefile
+  sed -i "52s|IOAPI_ROOT|#IOAPI_ROOT|g" Makefile
+  sed -i "55s|FFLAGS|#FFLAGS|g" Makefile
+  sed -i "56s|LIBS|#LIBS|g" Makefile
+  sed -i "57s|-L|#-L|g" Makefile
+  
+  make -j $CPU_HALF_EVEN
+  
+  cd $WRF_FOLDER/CMAQV5.4/PREP/bcon/scripts
+  chmod 775 *
+  ./bldit_bcon.csh gcc |& tee bldit_bcon.log
+  
+  cd $WRF_FOLDER/CMAQV5.4/PREP/icon/scripts
+  chmod 775 *
+  ./bldit_icon.csh gcc |& tee bldit_icon.log
+  
+  
+  cd $WRF_FOLDER/CMAQV5.4/PREP/create_omi/scripts
+  sed -i "38s|./config_cmaq.csh|./config_cmaq.csh gcc|g" bldit_create_omi.csh
+  sed -i '41s|"/home/hwo/CCTM_git_repository"|$WRF_FOLDER/CMAQ-main|g' bldit_create_omi.csh
+  chmod 775 *
+  ./bldit_create_omi.csh gcc |& tee bldit_create_omi.log
+  
+  
+ 
   echo " "
   echo " "
 
@@ -1527,6 +1611,10 @@ while read -r -p "Would to append your exports to your terminal profile (bashrc)
       echo "-------------------------------------------------- "
       echo " "
       echo "Exporting to bashrc"
+      echo "export WRF_FOLDER=$HOME/WRF" >> ~/.bashrc     
+      echo "export DIR=$WRF_FOLDER/Libs" >> ~/.bashrc
+      echo "export SMK_HOME=$WRF_FOLDER/SMOKEV5" >> ~/.bashrc
+      echo "export BIN=Linux2_x86_64gfort" >> ~/.bashrc
       echo "export PATH=$DIR/bin:$PATH" >> ~/.bashrc
       echo "export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
       echo "export CC=/usr/bin/gcc" >> ~/.bashrc
@@ -1555,6 +1643,7 @@ while read -r -p "Would to append your exports to your terminal profile (bashrc)
       echo "export NCARG_ROOT=$WRF_FOLDER/miniconda3/envs/ncl_stable" >> ~/.bashrc
       echo "export WRFPLUS_DIR=$WRF_FOLDER/WRFPLUS" >> ~/.bashrc
       echo "export CMAQ_HOME=$WRF_FOLDER/CMAQV5.4" >> ~/.bashrc
+      echo "export compiler=gcc" >> ~/.bashrc
       break
       ;;
     [Nn]* )
@@ -1586,4 +1675,3 @@ DIFF=$(($END-$START))
 echo "Install Start Time: ${start}"
 echo "Install End Time: ${end}"
 echo "Install Duration: $(($DIFF / 3600 )) hours $((($DIFF % 3600) / 60)) minutes $(($DIFF % 60)) seconds"
-
