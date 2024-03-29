@@ -1,7 +1,7 @@
 Automatic Installation Script for WRF V4.5, CMAQ V5.4, and SMOKE V5.0
 ========================================================
 
-This Bash script is developed in the CREATE group to streamline the installation process for WRF (Weather Research and Forecasting Model) version 4.5, CMAQ (Community Multi-scale Air Quality Model) version 5.4, and SMOKE (Sparse Matrix Operator Kernel Emissions) models. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. The WRF installation script is a fork of the main Bash scripts developed by [W. Hatheway](https://github.com/HathewayWill/WRF-MOSIT.git). CMAQ and SMOKE are also added to the bash script to provide an easy way to use and run WRF, SMOKE, and CMAQ models. All necessary modules (including CCTM, Bcon, Icon, and OMI) inside CMAQ are also built by the script for the users.
+This Bash script is developed in the [CREATE](https://www.sfu.ca/see/research/sustainable-urban-transportation.html) group to streamline the installation process for WRF (Weather Research and Forecasting Model) version 4.5, CMAQ (Community Multi-scale Air Quality Model) version 5.4, and SMOKE (Sparse Matrix Operator Kernel Emissions) models. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. The WRF installation script is a fork of the main Bash scripts developed by [W. Hatheway](https://github.com/HathewayWill/WRF-MOSIT.git). CMAQ and SMOKE are also added to the bash script to provide an easy way to use and run WRF, SMOKE, and CMAQ models. All necessary modules (including CCTM, Bcon, Icon, and OMI) inside CMAQ are also built by the script for the users.
 
 Features
 --------
