@@ -1,15 +1,13 @@
-Automatic Installation Script for WRF V4.5 and CMAQ V5.4
+Automatic Installation Script for WRF V4.5, CMAQ V5.4, and SMOKE V5.0
 ========================================================
 
-This Bash script streamlines the installation process for WRF (Weather Research and Forecasting Model) version 4.5 and CMAQ (Community Multi-scale Air Quality Model) version 5.4. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. This script is a fork of the main Bash scripts developed by [W. Hatheway](https://github.com/HathewayWill/WRF-MOSIT.git) for installing the WRF model.
+This Bash script is developed in the CREATE group to streamline the installation process for WRF (Weather Research and Forecasting Model) version 4.5, CMAQ (Community Multi-scale Air Quality Model) version 5.4, and SMOKE (Sparse Matrix Operator Kernel Emissions) models. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. The WRF installation script is a fork of the main Bash scripts developed by [W. Hatheway](https://github.com/HathewayWill/WRF-MOSIT.git). CMAQ and SMOKE are also added to the bash script to provide an easy way to use and run WRF, SMOKE, and CMAQ models. All necessary modules (including CCTM, Bcon, Icon, and OMI) inside CMAQ are also built by the script for the users.
 
 Features
 --------
-*   **WRF-CMAQ auto-installation**: The script extends the functionality of the original script by incorporating the IOAPI library and CMAQ model installation.
+*   **WRF-CMAQ-SMOKE auto-installation**: The script extends the functionality of the original script by incorporating the IOAPI library and CMAQ/SMOKE models installation.
   
-*   **Offline Installation**: It has been modified to enable an offline installation approach, minimizing dependencies on external servers.
-    
-*   **Cloud Storage**: The script takes advantage of an offline approach by pre-downloading and locally storing almost all necessary files in a Google Drive Cloud Storage. This design allows the script to function independently of the specific location of each library. If library paths change in the future, the script remains robust and functional without any adjustments.
+*   **Offline Installation**: It has been modified to enable an offline installation approach, minimizing dependencies on external servers. The script takes advantage of an offline approach by pre-downloading and locally storing almost all necessary files in Google Drive Cloud Storage. This design allows the script to function independently of the specific location of each library. If library paths change in the future, the script remains robust and functional without any adjustments.
     
 *   **Reliable and Independent**: Despite its reliance on Internet connectivity for file downloads during installation, this Bash script is designed to operate offline once the necessary files are obtained. This ensures a stable and consistent installation process even in environments with limited Internet access.
     
@@ -99,6 +97,8 @@ Library References
 17. **CMAQV5.4**
     - [GitHub - USEPA](https://github.com/USEPA/CMAQ/)
 
+18. **SMOKEV5.0**
+    - [CMAS Center](https://www.cmascenter.org/ioapi/)
 
 
 
