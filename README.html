@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatic Installation Script for WRF V4.5, CMAQ V5.4, and SMOKE V5.0</title>
+</head>
+<body>
+
+<h1>Automatic Installation Script for WRF V4.5, CMAQ V5.4, and SMOKE V5.0</h1>
+<hr>
+
+<p>This Bash script is developed in the <a href="https://www.sfu.ca/see/research/sustainable-urban-transportation.html">CREATE</a> group to streamline the installation process for WRF (Weather Research and Forecasting Model) version 4.5, CMAQ (Community Multi-scale Air Quality Model) version 5.4, and SMOKE (Sparse Matrix Operator Kernel Emissions) models. The script ensures a hassle-free setup by automating the installation of all required libraries and pre-postprocessing software. The WRF installation script is a fork of the main Bash scripts developed by <a href="https://github.com/HathewayWill/WRF-MOSIT.git">W. Hatheway</a>. CMAQ and SMOKE are also added to the bash script to provide an easy way to use and run WRF, SMOKE, and CMAQ models. All necessary modules (including CCTM, Bcon, Icon, and OMI) inside CMAQ are also built by the script for the users.</p>
+
+<h2>Features</h2>
+<ul>
+<li><strong>WRF-CMAQ-SMOKE auto-installation</strong>: The script extends the functionality of the original script by incorporating the IOAPI library and CMAQ/SMOKE models installation.</li>
+<li><strong>Offline Installation</strong>: It has been modified to enable an offline installation approach, minimizing dependencies on external servers. The script takes advantage of an offline approach by pre-downloading and locally storing almost all necessary files in Google Drive Cloud Storage. This design allows the script to function independently of the specific location of each library. If library paths change in the future, the script remains robust and functional without any adjustments.</li>
+<li><strong>Reliable and Independent</strong>: Despite its reliance on Internet connectivity for file downloads during installation, this Bash script is designed to operate offline once the necessary files are obtained. This ensures a stable and consistent installation process even in environments with limited Internet access.</li>
+</ul>
+
+<h2>Usage</h2>
+<ol>
+<li>Ensure an Internet connection for initial file downloads.</li>
+<li>Run the script to automatically install WRF V4.5 and CMAQ V5.4 along with all required libraries.</li>
+</ol>
+
+<h2>Installation Instructions</h2>
+<ol>
+<li><strong>Clone the Repository:</strong></li>
+<pre><code>cd $HOME
+git clone https://github.com/Hos128/WRF-CMAQ-Installation.git
+cd $HOME/WRF-CMAQ-Installation
+</code></pre>
+
+<li><strong>Set Permissions:</strong></li>
+<pre><code>chmod 775 *.sh
+</code></pre>
+
+<li><strong>Run the Installation Script:</strong></li>
+<pre><code>./OfflineWRFCMAQ.sh 2&gt;&amp;1 | tee OfflineWRFCMAQ.log
+</code></pre>
+</ol>
+
+<h2>Library References</h2>
+<ol>
+<li><strong>MET and METplus</strong>: <a href="https://dtcenter.org/">DTcenter</a></li>
+<li><strong>Zlib library</strong>: <a href="https://github.com/madler/zlib">GitHub - zlib</a></li>
+<li><strong>HDF5</strong>: <a href="https://github.com/HDFGroup/hdf5">GitHub - HDFGroup</a></li>
+<li><strong>NETCDF</strong>: <a href="https://github.com/Unidata/">GitHub - Unidata</a></li>
+<li><strong>Libpng</strong>: <a href="https://download.sourceforge.net/libpng/">SourceForge - libpng</a></li>
+<li><strong>Jasper</strong>: <a href="https://www.ece.uvic.ca/~frodo/jasper/">Jasper Project</a></li>
+<li><strong>MPICH</strong>: <a href="https://github.com/pmodels/mpich/">GitHub - mpich</a></li>
+<li><strong>Parallel-NetCDF</strong>: <a href="https://parallel-netcdf.github.io/">Parallel-netcdf</a></li>
+<li><strong>Opengrads</strong>: <a href="https://sourceforge.net/projects/opengrads/">SourceForge - opengrads</a></li>
+<li><strong>NCEPlibs</strong>: <a href="https://github.com/NCAR/">GitHub - NCAR</a></li>
+<li><strong>UPPv4.1</strong>: <a href="https://github.com/NOAA-EMC/EMC_post">GitHub - NOAA-EMC</a></li>
+<li><strong>Geographical Input Data, ARWpost, RIP4</strong>: <a href="http://www2.mmm.ucar.edu/">UCAR - MMM</a></li>
+<li><strong>Miniconda</strong>: <a href="https://repo.anaconda.com/miniconda/">Anaconda - Miniconda</a></li>
+<li><strong>WRFv4.5, WPSV4.5, OBSGRID</strong>: <a href="https://github.com/wrf-model/">GitHub - WRF-model</a></li>
+<li><strong>WPS Domain Setup and WPF Portal Setup Tools</strong>: <a href="https://esrl.noaa.gov/">NOAA - ESRL</a></li>
+<li><strong>IOAPI</strong>: <a href="https://www.cmascenter.org/ioapi/">CMAS Center</a></li>
+<li><strong>CMAQV5.4</strong>: <a href="https://github.com/USEPA/CMAQ/">GitHub - USEPA</a></li>
+<li><strong>SMOKEV5.0</strong>: <a href="https://www.cmascenter.org/ioapi/">CMAS Center</a></li>
+</ol>
+
+<p>Feel free to contribute, report issues, or provide feedback!</p>
+
+</body>
+</html>
